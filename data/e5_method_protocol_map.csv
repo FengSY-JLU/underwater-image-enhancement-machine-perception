@@ -1,0 +1,11 @@
+method,task_gain_reference,visual_geometry,n_sources,qualification
+CLAHE,Original RAW,Native same-source grid,110,Control
+Water-Net,Original RAW,Native same-source grid,110,UIE variant
+Semi-UIR,Original RAW,Native same-source grid,110,UIE variant
+HSRUIE,Original RAW,Native same-source grid,110,UIE variant
+DPF-Net,Matched RAW,Fixed 256x256 matched grid,110,UIE variant
+FMFD,Matched RAW,Fixed 256x256 matched grid,110,UIE variant
+DiffWater,Matched RAW,Fixed 256x256 matched grid,110,UIE variant
+IBLA local 5/3,Matched RAW,Native same-source grid,110,UIE variant
+TACL G-A,Matched RAW,Native same-source grid,109,1 width-exception pair descriptive only
+TACL G-B,Matched RAW,Native same-source grid,109,1 width-exception pair descriptive only

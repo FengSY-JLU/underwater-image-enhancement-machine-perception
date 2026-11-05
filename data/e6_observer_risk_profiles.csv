@@ -1,0 +1,31 @@
+method,observer,mean_gain_pp,ci_low_pp,ci_high_pp,harm_rate_percent,worst_decile_mean_pp
+CLAHE,UNet-VGG16,-7.88,-9.43,-6.39,90.0,-24.60
+CLAHE,SegFormer-B2,-1.77,-3.16,-0.46,74.6,-16.65
+CLAHE,HRNet-W18,-1.80,-3.13,-0.57,69.1,-16.58
+Water-Net,UNet-VGG16,-6.30,-8.01,-4.54,82.7,-26.31
+Water-Net,SegFormer-B2,-3.45,-5.12,-1.89,78.2,-24.16
+Water-Net,HRNet-W18,-1.64,-2.79,-0.54,63.6,-15.49
+Semi-UIR,UNet-VGG16,-4.97,-6.57,-3.48,82.7,-24.13
+Semi-UIR,SegFormer-B2,-3.05,-4.83,-1.45,77.3,-25.26
+Semi-UIR,HRNet-W18,-0.70,-1.68,0.28,59.1,-11.64
+HSRUIE,UNet-VGG16,-14.31,-17.49,-11.26,84.5,-48.10
+HSRUIE,SegFormer-B2,-8.76,-11.89,-5.83,86.4,-47.43
+HSRUIE,HRNet-W18,-7.98,-10.58,-5.46,74.6,-40.77
+DPF-Net,UNet-VGG16,-6.50,-8.38,-4.82,78.2,-28.24
+DPF-Net,SegFormer-B2,-3.00,-4.12,-1.87,80.9,-16.79
+DPF-Net,HRNet-W18,-2.84,-4.34,-1.41,69.1,-19.54
+FMFD,UNet-VGG16,-19.56,-21.64,-17.35,94.5,-37.32
+FMFD,SegFormer-B2,-18.33,-20.59,-16.30,98.2,-40.56
+FMFD,HRNet-W18,-16.72,-18.67,-14.72,95.5,-34.67
+DiffWater,UNet-VGG16,-23.09,-26.11,-20.13,95.5,-53.51
+DiffWater,SegFormer-B2,-11.12,-13.56,-8.83,89.1,-38.81
+DiffWater,HRNet-W18,-15.50,-18.13,-13.07,90.0,-41.72
+IBLA 5/3,UNet-VGG16,-7.43,-9.66,-5.28,80.9,-34.07
+IBLA 5/3,SegFormer-B2,-3.70,-5.24,-2.18,78.2,-23.55
+IBLA 5/3,HRNet-W18,-3.22,-5.07,-1.55,64.5,-25.24
+TACL G-A,UNet-VGG16,-7.15,-9.31,-5.04,80.9,-28.58
+TACL G-A,SegFormer-B2,-1.55,-3.01,-0.05,69.1,-17.37
+TACL G-A,HRNet-W18,-2.35,-3.85,-0.93,67.3,-19.54
+TACL G-B,UNet-VGG16,-3.33,-4.64,-1.86,75.4,-15.84
+TACL G-B,SegFormer-B2,-2.65,-4.14,-1.21,69.1,-20.51
+TACL G-B,HRNet-W18,-3.44,-5.02,-1.90,67.3,-21.95

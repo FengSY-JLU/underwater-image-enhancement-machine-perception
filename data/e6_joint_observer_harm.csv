@@ -1,0 +1,11 @@
+method,all_three_harm_count,all_three_benefit_count,mixed_sign_count,any_observer_harm_count,any_observer_harm_percent,severe_harm_ge_10pp_count,mean_three_observer_pp
+CLAHE,60,4,46,106,96.4,40,-3.81
+Water-Net,52,3,55,107,97.3,36,-3.80
+Semi-UIR,47,1,62,109,99.1,30,-2.91
+HSRUIE,68,6,36,104,94.5,60,-10.35
+DPF-Net,54,4,52,106,96.4,41,-4.11
+FMFD,100,0,10,110,100.0,99,-18.21
+DiffWater,87,2,21,108,98.2,101,-16.57
+IBLA 5/3,50,3,57,107,97.3,37,-4.78
+TACL G-A,51,7,52,103,93.6,42,-3.68
+TACL G-B,47,8,55,102,92.7,41,-3.14

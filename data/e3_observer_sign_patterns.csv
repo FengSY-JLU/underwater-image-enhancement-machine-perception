@@ -1,0 +1,11 @@
+method,all_observers_benefit_count,mixed_sign_count,all_observers_harmed_count,mixed_sign_rate_percent,ci_low_percent,ci_high_percent,worst_observer_mean_pp
+CLAHE,4,46,60,41.8,32.7,50.9,-10.23
+Water-Net,3,55,52,50.0,40.9,59.1,-9.25
+Semi-UIR,1,62,47,56.4,47.3,65.5,-8.14
+HSRUIE,6,36,68,32.7,24.5,41.8,-17.60
+DPF-Net,2,48,60,43.6,34.5,52.7,-12.87
+FMFD,0,15,95,13.6,7.3,20.0,-25.89
+DiffWater,3,19,88,17.3,10.0,24.5,-29.96
+IBLA 5/3,3,57,50,51.8,42.7,60.9,-10.04
+TACL G-A,7,52,51,47.3,38.2,56.4,-9.87
+TACL G-B,8,55,47,50.0,40.9,59.1,-8.17

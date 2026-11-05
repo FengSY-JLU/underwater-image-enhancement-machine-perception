@@ -1,0 +1,40 @@
+domain,endpoint,mean_delta_f1_pp,ci_low_pp,ci_high_pp
+CLAHE,Faster R-CNN Box,-3.35,-4.28,-2.45
+CLAHE,Mask R-CNN Box,-4.11,-5.06,-3.16
+CLAHE,Mask R-CNN Mask,-4.30,-5.28,-3.34
+DiffWater,Faster R-CNN Box,-19.40,-20.88,-17.93
+DiffWater,Mask R-CNN Box,-20.04,-21.52,-18.55
+DiffWater,Mask R-CNN Mask,-20.11,-21.56,-18.67
+DPF-Net,Faster R-CNN Box,-9.95,-11.23,-8.66
+DPF-Net,Mask R-CNN Box,-13.10,-14.38,-11.78
+DPF-Net,Mask R-CNN Mask,-13.19,-14.54,-11.85
+DTI-UIE,Faster R-CNN Box,-7.42,-8.65,-6.18
+DTI-UIE,Mask R-CNN Box,-9.10,-10.34,-7.83
+DTI-UIE,Mask R-CNN Mask,-9.21,-10.47,-8.01
+FMFD,Faster R-CNN Box,-13.02,-14.31,-11.68
+FMFD,Mask R-CNN Box,-13.27,-14.56,-11.99
+FMFD,Mask R-CNN Mask,-20.10,-21.58,-18.63
+HSRUIE (resource-bounded),Faster R-CNN Box,-9.68,-10.86,-8.50
+HSRUIE (resource-bounded),Mask R-CNN Box,-9.56,-10.73,-8.39
+HSRUIE (resource-bounded),Mask R-CNN Mask,-9.59,-10.79,-8.43
+IBLA 5/3,Faster R-CNN Box,-14.79,-16.10,-13.40
+IBLA 5/3,Mask R-CNN Box,-15.78,-17.15,-14.43
+IBLA 5/3,Mask R-CNN Mask,-16.00,-17.40,-14.65
+RAW-grid256,Faster R-CNN Box,-6.61,-7.70,-5.52
+RAW-grid256,Mask R-CNN Box,-7.86,-9.01,-6.74
+RAW-grid256,Mask R-CNN Mask,-7.83,-8.99,-6.71
+Semi-UIR (resource-bounded),Faster R-CNN Box,-2.05,-3.01,-1.10
+Semi-UIR (resource-bounded),Mask R-CNN Box,-3.01,-3.95,-2.08
+Semi-UIR (resource-bounded),Mask R-CNN Mask,-3.20,-4.15,-2.27
+TACL G-A (resource-bounded),Faster R-CNN Box,-0.96,-1.88,-0.03
+TACL G-A (resource-bounded),Mask R-CNN Box,-1.83,-2.68,-0.96
+TACL G-A (resource-bounded),Mask R-CNN Mask,-1.93,-2.80,-1.03
+USUIR (resource-bounded),Faster R-CNN Box,-19.72,-21.18,-18.24
+USUIR (resource-bounded),Mask R-CNN Box,-20.00,-21.42,-18.55
+USUIR (resource-bounded),Mask R-CNN Mask,-20.07,-21.49,-18.69
+UWCNN Type-I (resource-bounded),Faster R-CNN Box,-8.57,-9.74,-7.43
+UWCNN Type-I (resource-bounded),Mask R-CNN Box,-9.06,-10.18,-7.93
+UWCNN Type-I (resource-bounded),Mask R-CNN Mask,-9.25,-10.40,-8.10
+Water-Net (resource-bounded),Faster R-CNN Box,-0.83,-1.64,-0.03
+Water-Net (resource-bounded),Mask R-CNN Box,-1.19,-2.02,-0.37
+Water-Net (resource-bounded),Mask R-CNN Mask,-1.19,-2.04,-0.34
