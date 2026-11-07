@@ -7,3 +7,6 @@ venv/
 scripts/figures/
 scripts/fig02a_question_evolution.png
 .DS_Store
+
+# Diagnostic figures produced from released aggregates
+generated/

@@ -24,10 +24,15 @@ python -m pip install -r requirements.txt
 python scripts/validate_release_tables.py
 python scripts/validate_claims.py
 python scripts/validate_e4_holm39.py
-sha256sum -c SHA256SUMS.txt  # on systems with sha256sum
+python scripts/validate_protocol_contracts.py
+python scripts/check_repository_hashes.py  # cross-platform, prints CRLF normalization if used
 ```
 
 These commands validate table shape, selected reported aggregate claims, exact E4 sign-test p-values and Holm adjustments, and the listed file checksums. The E4 test excludes ties and adjusts a single family of 39 hypotheses. **None of these checks reruns image enhancement, neural-network inference, training, or bootstrap sampling.**
+
+To run all available offline checks in one command, use `python scripts/run_review_checks.py`.
+
+To generate **new descriptive plots** of the released aggregate tables (not the original manuscript figures), use `python scripts/plot_aggregate_summaries.py`; see `docs/REVIEWER_REPRODUCIBILITY.md`.
 
 The conceptual research-question evolution schematic can be regenerated separately:
 
@@ -46,3 +51,11 @@ This writes image/PDF/SVG outputs under the script directory; they are not task-
 - `RELEASE_NOTES.md` documents additions made after the original review-stage upload. A documentation or script update must not silently revise frozen experimental results.
 
 No names, affiliations, personal email addresses, private filesystem paths, or non-anonymous author files are intended to be included. The review artifact has no explicit open-source reuse license at present; readers should not infer reuse or redistribution rights from public visibility. Please use the journal's editorial correspondence channel if questions require author contact, rather than following potentially identifying external repository links.
+
+## Further review guidance
+
+- `docs/REVIEWER_REPRODUCIBILITY.md`: exact checks supported now and a five-minute review workflow.
+- `docs/SOURCE_LEVEL_RELEASE_REQUIREMENTS.md`: conditions for any future release of archived source-level derived records; none are currently included.
+- `docs/RELEASE_SCOPE_AND_LICENSE.md`: licenses, anonymity, and archival boundaries.
+
+The original source-level experimental records reside outside this release; documentation of a possible future release must not be understood as their availability.

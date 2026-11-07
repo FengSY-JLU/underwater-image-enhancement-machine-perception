@@ -11,3 +11,7 @@ The patch adds a reviewer-oriented protocol map and data dictionary, together wi
 The patch must **not** change any of the 11 baseline `data/*.csv` files, `scripts/validate_e4_holm39.py`, `scripts/validate_release_tables.py`, `scripts/generate_research_question_evolution_figure.py` or `requirements.txt`.
 
 Future additions such as source-level derived records, inference pipelines, environmental manifests or output figures should be audited for provenance, third-party rights, anonymization, geometry and checkpoint identity before being described as available. New or changed experimental results should be versioned explicitly rather than silently overwritten.
+
+## Additional aggregate review checks and plotting (2026-11-07)
+
+This follow-up adds cross-platform SHA-256 verification, protocol-aware structural invariants, a single-command review-check runner, descriptive aggregate-only plots, and explicit documentation of reproducibility levels and future source-level release requirements. It does not alter any of the 11 numeric CSVs, existing historical checking scripts or inference/training assets. The new plots are not claimed to reproduce the manuscript's original figures.
