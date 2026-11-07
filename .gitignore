@@ -1,0 +1,9 @@
+# Generated output and local Python state
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+scripts/figures/
+scripts/fig02a_question_evolution.png
+.DS_Store
